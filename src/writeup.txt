@@ -1,0 +1,10 @@
+﻿1. Tony Dinh and Anders Bergquist
+
+
+2. Client and server code work without any major errors. When guessing letters in the client, the server treats upper and lowercase letters differently. So guessing a lowercase ‘a’ will not count if there is an uppercase ‘A’ in the word. This is something we thought of as an implementation detail and not something critical to our code. Another thing is when we tested inputting multiple letters for a client guess then the server takes in every letter and tries them against the board. This way a client user can guess the entire word for a guess and get it all correct.
+
+
+3. Tried running multiple games with varying lengths of words. Tested up to two clients running two different instances of hangman at the same time. Played several test games from different computers. 
+
+
+4. One of the most challenging parts of the assignment for us was sending and receiving the correct about of data. Sometimes when you sent or received the wrong amount of data the client would hang until the server closed. Another issue we were stuck on was reading the input from the user. After every letter guessed our scanf function would read in an extra blank character on top of the letter already guessed which threw off our program. Luckily after locating this error it wasn’t too hard to fix.

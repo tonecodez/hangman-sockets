@@ -1,0 +1,8 @@
+1. We are being asked to create a Hangman game that you play using sockets.
+We will be implementing sockets and reading and writing data over sockets.
+
+2. The most challenging part is going to be deciding when to use fork()
+
+3. Stackoverflow, man pages, Tanzima
+
+4. Sunday, Tuesday, Thursday, Friday, Saturday, Sunday (if necessary)
